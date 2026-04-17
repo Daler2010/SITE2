@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>University Finder Pro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="preloader" class="preloader">
+  <div class="preloader-ring"></div>
+  <div class="preloader-text">University Finder Pro</div>
+</div>
+
+<div class="bg-orb orb-1"></div>
+<div class="bg-orb orb-2"></div>
+<div class="bg-grid"></div>
+<div id="toastContainer" class="toast-container"></div>
+
+<header class="nav-shell">
+  <nav class="nav container">
+    <a class="logo" href="#/">University<span>Finder</span> Pro</a>
+    <button class="nav-burger" id="navBurger" aria-label="Меню">☰</button>
+    <div class="nav-menu" id="navMenu">
+      <a href="#/">Главная</a>
+      <a href="#/catalog">Каталог</a>
+      <a href="#/compare">Сравнение</a>
+      <a href="#/scholarships">Гранты</a>
+      <a href="#/countries">Страны</a>
+      <a href="#/how-to-apply">Как поступить</a>
+      <a href="#/dashboard">Dashboard</a>
+      <a href="#/favorites">Favorites</a>
+      <a href="#/deadlines">Deadlines</a>
+    </div>
+    <div class="nav-actions">
+      <button class="theme-switch" id="themeToggle" aria-label="Сменить тему">
+        <span class="theme-switch-track"><span class="theme-switch-thumb"></span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<div class="modal hidden" id="modal">
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+  <div class="modal-card">
+    <button class="modal-close" id="modalClose">×</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
