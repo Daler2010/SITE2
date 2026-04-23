@@ -2276,7 +2276,7 @@ return `
 ${content}
 <div class="footer">
 <div class="footer-line">
-<div>By Daler & Yusuf</div>
+<div>By Daler & Muhammadrofe</div>
 <div>Настоящий product-like формат: home, catalog, university, compare, scholarships, countries, how to apply, dashboard, favorites, deadlines.</div>
 </div>
 </div>
